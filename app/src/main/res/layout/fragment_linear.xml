@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LinearLayout (Vertical)"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="14dp"
+        android:textColor="#a89a16"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="20dp"
+        android:background="@drawable/bg_layout"
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:layout_marginBottom="14dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Usuario: "/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Contraseña: "/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Entrar"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Registrarme"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LinearLayout (Horizontal)"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="14dp"
+        android:textColor="#a89a16"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="20dp"
+        android:background="@drawable/bg_layout"
+        android:padding="10dp"
+        android:orientation="horizontal"
+        android:layout_marginBottom="14dp"
+        android:weightSum="3">
+        <ImageView
+            android:layout_weight="1"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="#eee0ff"
+            android:src="@drawable/targaryenshield"
+            />
+        <TextView
+            android:layout_weight="2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Casa Targaryen"
+            android:gravity="center"
+            android:background="#ffffff"
+            />
+    </LinearLayout>
+
+</LinearLayout>

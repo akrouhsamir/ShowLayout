@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TableLayout"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="14dp"
+        android:textColor="#a89a16"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="14dp"
+        android:background="@drawable/bg_layout"
+        android:elevation="20dp"
+        android:padding="20dp">
+
+        <TableRow>
+
+            <View
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:background="#123456" />
+
+            <View
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:background="#999999" />
+
+            <View
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:background="#aaeeff"
+                android:layout_gravity="center"/>
+
+
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_gravity="bottom"
+                android:text="Hola :D"
+                android:padding="10dp"
+                android:background="#454599"
+                android:textColor="@color/white"
+                android:textStyle="bold"/>
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:background="#aa11aa"
+                android:text="SOY UN BOTON" />
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:textStyle="bold"
+                android:padding="30dp"
+                android:text="Soy un texto :) "
+                android:textColor="@color/white"
+                android:background="#ae0012"/>
+
+            <View
+                android:layout_width="20dp"
+                android:layout_height="30dp"
+                android:background="#330000" />
+
+            <View
+                android:layout_width="5dp"
+                android:layout_height="70dp"
+                android:background="#00aaee" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>
